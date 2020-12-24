@@ -1,0 +1,126 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+}
+html::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+border-radius:3px;
+background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar
+{
+width: 5px;
+background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar-thumb
+{
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: #9e9c9c;
+}
+#iframeTop{
+    width: 100%;
+    height: 55px;
+    
+    margin:0;
+    color:white;
+}
+#iframeLeft{
+    width: 15%;
+    height: 600px;
+    float: left;
+    
+    margin:0;
+}
+#iframeContent{
+    width: 85%;
+    height: 600px;
+    background-color: #fff;
+    margin:0;
+}
+
+/*top*/
+.box{
+    position: absolute;
+    left:180px;
+    top:10px;
+    display:flex;
+}
+.box > p{
+    color:#64049b;
+    margin:0;
+    margin-top:0px;
+    color:#fcf8ec;
+    font-size:26px;
+    align-items: center;
+    
+}
+
+/*left*/
+
+
+/*right*/
+.icons{
+    padding:40px;
+    display:flex;
+}
+.icons > img {
+    margin-left: 180px;
+    width: 80px;
+    height: 80px;
+}
+
+.text{
+    width: 200px;
+    
+}
+.text > p{
+    
+    margin:8px 0;
+
+}
+.text_dtg{
+    
+    margin-top:40px;
+    margin-left: 220px;
+    width: 490px;
+    padding: 16px 16px 0 16px;
+    background-color: #f5f7fa;
+}
+.text_dtg > input {
+    width: 500px;
+    height: 250px;
+}
+textarea{
+    resize:none;
+}
+.start_dtg{
+    margin-left:165px;
+    
+}
+.start_dtg > a{
+    display: inline-block;
+    width: 160px;
+    padding: 9px 0;
+    background-color: #fcfdfd;
+    border: 1px solid #e1e3e6;
+    text-align: center;
+    line-height: 22px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    
+    
+}
+
+.result{
+    width: 200px;
+    text-align: center;
+    margin-left:146px;
+
+}
