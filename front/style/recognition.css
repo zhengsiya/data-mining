@@ -65,11 +65,11 @@ background-color: #9e9c9c;
 
 /*right*/
 .icons{
-    padding:40px;
+    padding:10px;
     display:flex;
 }
 .icons > img {
-    margin-left: 180px;
+    margin-left: 50px;
     width: 80px;
     height: 80px;
 }

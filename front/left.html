@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Top</title>
+    
     <style>
         body{
             width: 100%;
@@ -14,26 +15,32 @@
         p{
             margin-left: 40px;
             color:#fcf8ec;
+            cursor: pointer;
+        }
+        p:active{
+            color:black;
         }
     </style>
-
+    <script src="script/jquery_3.5.1.js"></script>
 </head>
 <body>
-    <!--<div class="ditinguish">
-        <button type="" onclick="window.open('Text_recognition.html')" target="iframeContent">垃圾文本识别</button>
-    </div>
-    <div class="show">
-        <button type="">功能展示</button>
-    </div>-->
+    
 
 
         <p>功能展示</p>
         <hr size="2" >
-        <p>文本审核</p>
+        <p id="text">文本审核</p>
 
         <br>
-        <p>弹幕过滤</p>
-
+        <p id="barrage">弹幕过滤</p>
+        <script>
+            $("p#barrage").click(function(){
+                window.open("barrage.html");
+            });
+            $("p#text").click(function(){
+                window.open("text_recognition.html");
+            })
+        </script>
     
 </body>
 </html>
